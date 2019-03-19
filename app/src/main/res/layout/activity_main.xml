@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_app_name"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <EditText
+        android:id="@+id/numberField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="110dp"
+        android:hint="Input number(cm)"
+        android:textColorHint="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="90dp"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/convertId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorConvert"
+        android:text="@string/CONVERT"
+        android:layout_marginLeft="20dp"
+        />
+
+<Button
+    android:id="@+id/resetId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:background="@color/colorReset"
+    android:text="@string/Reset"
+    android:layout_marginLeft="280dp"
+    />
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/colorConvert"
+        android:layout_centerHorizontal="true"
+        >
+    </FrameLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/kilometre"
+    android:textColor="@color/colorBlack"
+    android:layout_marginTop="240dp"
+    android:layout_marginLeft="40dp"/>
+    <TextView
+        android:id="@+id/kilometre0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kilometre0"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="300dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/centimetre"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/centimetre0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/centimetre0"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="300dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/mile"/>
+    <TextView
+        android:id="@+id/mile0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/mile0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/yard"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/yard0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="300dp"
+        android:text="@string/yard0"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="360dp"
+        android:text="@string/foot"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/foot0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="360dp"
+        android:text="@string/foot0"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Agata Maciulevic"
+        android:textSize="25dp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/colorBlack"/>
+
+
+</RelativeLayout>

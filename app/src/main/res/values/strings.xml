@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Crazy Converter</string>
+    <string name="my_app_name">Crazy converter</string>
+    <string name="CONVERT">CONVERT </string>
+    <string name="Reset">RESET</string>
+    <string name="kilometre0">00.00</string>
+    <string name="kilometre">Kilometre</string>
+    <string name="centimetre">Centimetre</string>
+    <string name="centimetre0">00.00</string>
+    <string name="mile">Mile</string>
+    <string name="mile0">00.00</string>
+    <string name="yard">Yard</string>
+    <string name="yard0">00.00</string>
+    <string name="foot">Foot</string>
+    <string name="foot0">00.00</string>
+</resources>
